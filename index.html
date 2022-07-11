@@ -5,14 +5,23 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Project Meme Generator</title>
 </head>
 
 <body>
   <main>
-    <input type="text" id="text-input">
+    <div>
+    <label for="text-input"> Insira o texto:
+      <input type="text" id="text-input">
+    </label>
+    <label for="meme-insert"> Insira a imagem:
+      <input type="file" id="meme-insert" alt="Submit image" accept="image/*">
+    </div>
+    </label>
     <div id="meme-image-container">
       <div id="meme-text"></div>
+      <img src="" alt="Imagem carregada" id="meme-image"/>
     </div>
   </main>
   <script src="script.js"></script>
