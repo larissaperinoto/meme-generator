@@ -1,21 +1,40 @@
 #meme-image-container {
-  width: 300px;
+  width: 500px;
+  height: 500px;
   border: 1px solid black;
   background-color: white;
   position: relative;
+  margin: 100px;
 }
 
 #meme-text {
-  position: absolute;
+  position:absolute;
   text-shadow: 5px 5px 5px black;
   font-size: 30px;
   color: white;
   word-wrap: break-word;
+  text-align: center;
+  font-weight: 600;
 }
 
 #meme-image {
   width: 100%;
-  object-fit: cover;
+  object-fit: fill;
+}
+
+#container-border {
+  display: flex;
+}
+
+#container-border p {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+#container-border button {
+  margin-right: 10px;
+  padding: 5px 20px;
+  height: 40px;
 }
 
 #fire {
@@ -37,8 +56,10 @@
 #container-choose-image div {
   width: 200px;
   cursor: pointer;
+  margin-right: 10px;
 }
 
 #container-choose-image div img {
   width: 100%;
+  height: 150px;
 }
