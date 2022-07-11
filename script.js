@@ -36,3 +36,24 @@ buttonFire.addEventListener('click', () => {
 buttonWater.addEventListener('click', () => {
   memeContainer.style.border = '5px double rgb(0, 0, 255)';
 });
+
+const meme1 = document.getElementById('meme-1');
+const meme2 = document.getElementById('meme-2');
+const meme3 = document.getElementById('meme-3');
+const meme4 = document.getElementById('meme-4');
+
+meme1.addEventListener('click', (event) => {
+  photo.src = event.target.src;
+});
+
+meme2.addEventListener('click', (event) => {
+  photo.src = event.target.src;
+});
+
+meme3.addEventListener('click', (event) => {
+  photo.src = event.target.src;
+});
+
+meme4.addEventListener('click', (event) => {
+  photo.src = event.target.src;
+});

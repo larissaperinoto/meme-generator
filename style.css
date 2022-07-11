@@ -15,17 +15,30 @@
 
 #meme-image {
   width: 100%;
-  object-fit: cover
+  object-fit: cover;
 }
 
 #fire {
-  background-color: rgb(255, 0, 0);
+  background-color: red;
 }
 
 #water {
-  background-color: rgb(0, 0, 255);
+  background-color: blue;
 }
 
 #earth {
-  background-color: rgb(0, 128, 0);
+  background-color: green;
+}
+
+#container-choose-image {
+  display: flex;
+}
+
+#container-choose-image div {
+  width: 200px;
+  cursor: pointer;
+}
+
+#container-choose-image div img {
+  width: 100%;
 }
